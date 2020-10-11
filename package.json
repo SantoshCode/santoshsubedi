@@ -12,5 +12,13 @@
 		"santosh subedi",
 		"santosh",
 		"subedi"
-	]
+	],
+	"license": "MIT",
+	"main": "index.js",
+	"repository": "santoshcode/santoshsubedi",
+	"author": {
+		"name": "Santosh Subedi",
+		"email": "santsubcode@gmail.com",
+		"url": "http://santoshsubedi.com.np"
+	}
 }
