@@ -1,0 +1,8 @@
+{
+	"name": "santoshsubedi",
+	"version": "1.0.0",
+	"bin": {
+		"santoshsubedi": "index.js"
+	},
+	"dependencies": {}
+}
