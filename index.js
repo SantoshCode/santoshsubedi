@@ -8,6 +8,14 @@ const italic = chalk.italic
 const twitterClr = chalk.hex(`#1da1f2`).bold.inverse
 const githubClr = chalk.hex(`#6cc644`).bold.inverse
 const purple = chalk.hex(`#6937FF`).bold.inverse
+
+// Alerts.
+const sym = require('log-symbols')
+const success = chalk.green.inverse
+const info = chalk.blue.inverse
+const warning = chalk.keyword('orange').inverse
+const error = chalk.red.bold.inverse
+
 welcome({
 	title: `Santosh Subedi`,
 	tagLine: `Howdy, nice to meet ya!`,
@@ -31,4 +39,14 @@ Hi there, This is Santosh Subedi - AKA SantoshCode
 🔂 ${githubClr(` Github `)}   ${dim(`https://github.com/santoshcode`)}
 🤘 ${purple(` Site `)}     ${dim(`http://santoshsubedi.com.np`)}
 
+`)
+
+console.log(`
+${sym.success} ${success(` SUCCESS `)}: Thanks for checking out my CLI.
+
+${sym.info} ${info(` INFO `)}: I'm creating a CLI Tool.
+
+${sym.warning} ${warning(` WARNING `)}: Pleasse don't copy me.
+
+${sym.error} ${error(` ERROR `)}: I'm on vacation. Contact me next week.
 `)
